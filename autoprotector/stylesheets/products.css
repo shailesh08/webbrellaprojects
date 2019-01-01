@@ -1,0 +1,47 @@
+.products{
+
+}
+
+.products .tabs-left > li{
+	float:none;
+	background-color: #fff;
+	color:#0123b4;
+	/* border-color:#ff7f00; */
+	display: block;
+	border-radius: 0px;	
+	/* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+}
+
+.products .tabs-left > li> a{
+	display: block;
+    font-weight: bold;
+    border-radius: 0px;
+    position: relative;
+    color: #0123b4;
+   /*  border: none; */
+    width: 100%;
+    background: transparent;
+    border-color:#ff7f00;
+   /*  border-bottom-color:rgba(255,255,255,0.5); */
+    text-transform: uppercase;  
+    
+}
+.products .tabs-left > li:last-child> a,
+.products .tabs-left > li:last-child> a:hover,
+.products .tabs-left > li:last-child> a:focus
+{
+	/* border-bottom-color:transparent; */
+}
+
+.products .box-content{
+	font-size: 12px;
+	line-height: 18px;
+}
+.products .tabs-left > li> a:hover,
+.products .tabs-left > li> a:focus,
+.products .tabs-left > li.active> a{
+	border-color:transparent;
+    /* border-bottom-color:rgba(255,255,255,0.5); */
+	background:#ff7f00;
+	color:#fff;
+}
